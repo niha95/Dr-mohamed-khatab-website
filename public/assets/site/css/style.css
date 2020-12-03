@@ -1,0 +1,624 @@
+.page-body
+{
+    padding-right: 0;
+    padding-left: 0;
+    font-family: 'hecenSaudiArabia';
+    font-size: 16px;
+    color: #115576;
+    overflow-x: hidden;
+}
+a
+{
+    font-size: 18px;
+}
+a:hover, a:focus
+{
+    text-decoration: none;
+}
+/* start-header */
+.top-head
+{
+    background: #115576;
+}
+header
+{
+    position: relative;
+    z-index: 1;
+}
+header .head
+{
+    display: flex;
+    justify-content: space-between;
+    background: #115576;
+    color: white;
+    direction: rtl;
+}
+header ul
+{
+    margin: 0.3rem;
+    direction: ltr;
+}
+header .social ul
+{
+    padding-right: 0;
+}
+header .social ul li:not(:last-child)
+{
+    margin: 0 0.1rem;
+}
+header .social ul li a .fa
+{
+    font-size: 20px;
+    color: white;
+}
+/* End-header */
+
+/* start-navbar */
+
+.navigationbar
+{
+    direction: rtl;
+    position: relative;
+    z-index: 1;
+}
+.navigationbar nav
+{
+    margin-top: -38px;
+}
+.navigationbar .navbar-light .navbar-nav .nav-link 
+{
+    color: #115576;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navigationbar .navbar-light .navbar-nav .nav-link:hover, 
+.navigationbar .navbar-light .navbar-nav .nav-link:focus 
+{
+    color: #0cadb3;
+}
+/* End-navbar */
+
+/* start-slider */
+
+.khattab-slider,
+.inner-khattab-slider
+{
+   margin-top: -123px; 
+}
+.khattab-slider .carousel-item img,
+.inner-khattab-slider .carousel-inner img
+{
+    width: 100%;
+    height: 600px;
+}
+/* End-slider */
+
+/* start-welcome-site */
+
+ .head-title
+{
+    margin-top: 0.5rem;
+}
+ .head-title i,
+ .head-title img
+{
+    height: 50px;
+    width: 50px;
+    border: 4px solid #115576;
+    color: #0cadb3;
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 2px;
+}
+.head-title h3
+{
+    font-weight: bold;
+    color: #115576;
+    margin-bottom: 0;
+}
+.head-title h4
+{
+    color: #0cadb3;
+    font-weight: bold;
+}
+.welcome-site .welcome-body 
+{
+    background: url(../images/welcom-bg.png) no-repeat right center;
+    position: relative;
+    margin: 1rem auto;
+}
+.welcome-site .welcome-body .welcome-content
+{
+    text-align: justify;
+    direction: rtl;
+    margin: 3rem 11rem 1rem 0;
+}
+.welcome-site .welcome-body .welcome-content h2
+{
+    color: #0cadb3;
+}
+.welcome-site .welcome-body .welcome-img img
+{
+    width: 100%;
+    margin-left: -0.4rem;
+}
+
+/* End-welcome-site */
+
+/* start-service-center */
+
+.service-center
+{
+    direction: rtl;
+    text-align: justify;
+}
+.service-center ul.list-inline
+{
+    box-shadow: 0px 0px 5px 2px #988c8c;
+    padding-right: 0;
+}
+.service-center ul.list-inline li
+{
+    position: relative;
+    margin: 0;
+}
+.service-center ul.list-inline .list-inline-item:not(:last-child)
+{
+    margin: 0;
+}
+.service-center ul.list-inline li img
+{
+    width: 363px;
+    height: 300px;
+}
+.service-center ul.list-inline li p.lead
+{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background: rgba(93, 169, 210, 0.6);
+    margin-bottom: 0;
+    right: 0;
+    left: 0;
+}
+.service-center ul.list-inline li:first-of-type p.lead,
+.service-center ul.list-inline li:last-of-type p.lead
+{
+    background: rgba(12, 173, 179, 0.6);   
+}
+.service-center ul.list-inline li p.lead a
+{
+    color: white;
+    display: block;
+    font-size: 18px;
+    transition: ease all 0.3s;
+}
+.service-center ul.list-inline li p.lead a:hover,
+.service-center ul.list-inline li p.lead a:focus
+{
+    text-decoration: none;
+    font-size: 19px;
+}
+.service-center h2
+{
+    color: #0cadb3;
+    margin-bottom: 2rem;
+}
+h2 img
+{
+    border: 4px solid #115576;
+    border-radius: 50%;
+    padding: 3px;
+    height: 50px !important;
+    width: 50px;
+}
+.service-center ul li.list-item
+{
+    margin-bottom: 0.5rem;
+}
+.service-center ul li.list-item a
+{
+    color: #115576;
+    font-size: 18px;
+    font-weight: bold;
+}
+.service-center ul li.list-item a:hover,
+.service-center ul li.list-item a:focus
+{
+    text-decoration: none;
+    color: #0cadb3;
+}
+/* End-service-center */
+
+/* start-information-section */
+
+.info-center
+{
+    background: url(../images/info-bg.jpg) no-repeat right top;
+}
+.info-center h2
+{
+    background: white;
+    margin-bottom: 2rem;
+    display: inline-block;
+    direction: rtl;
+    padding-top: 1rem;
+}
+.info-center .row
+{
+    background: white;
+    margin-right: 2rem;
+}
+.info-center .row img
+{
+    border: 4px solid #115576;
+    border-radius: 50%;
+    padding: 3px;
+    height: 70px !important;
+    width: 70px;
+    margin: 0.5rem auto;
+}
+.info-center a p.lead
+{
+    color: #115576;
+    font-size: 18px;
+    font-weight: bold;
+}
+.info-center a p.lead:hover,
+.info-center a p.lead:focus
+{
+ color: #0cadb3;
+}
+
+/* End-information-section */
+
+/* start-video-section */
+
+.video-section
+{
+    direction: rtl;
+    margin: 1rem auto;
+    text-align: justify;
+}
+.video-section ul.list-inline li
+{
+    width: 47%;
+    margin-right: 1.1rem;
+}
+.video-section ul.list-inline li iframe
+{
+    height: 250px;
+    width: 100%;
+}
+.video-section ul li a 
+{
+    color: #115576;
+}
+.video-section ul li.list-item a:hover,
+.video-section ul li.list-item a:focus
+{
+    color: #0cadb3;
+}
+.video-section ul li.list-item
+{
+    margin-bottom: 0.5rem;
+}
+.video-section h2
+{
+    margin-bottom: 2rem;
+    color: #0cadb3;
+}
+/* End-video-section */
+
+/* start-bottom-section */
+
+.bottom-section
+{
+    background: url(../images/contact-bg.jpg) no-repeat right top;
+}
+.bottom-section .contact-data
+{
+    direction: rtl;
+    text-align: justify;
+}
+.bottom-section .contact-data p
+{
+    margin-bottom: 0;
+}
+.bottom-section .contact-data h2
+{
+    margin-bottom: 2rem;
+    color: #0cadb3;
+}
+.bottom-section .contact-data p span
+{
+    font-weight: bold;
+}
+.bottom-section .contact-data p:nth-child(3)
+{
+    margin-bottom: 2rem;
+}
+.bottom-section .contact-form
+{
+    direction: rtl;
+    margin: 2rem auto;
+}
+.bottom-section form .form-control
+{
+    width: 80%;
+    border-radius: 0;
+    border: 0;
+    color:white;
+    border-bottom: 1px solid white;
+    background: transparent;
+}
+.bottom-section form .form-control::placeholder
+{
+    color: white;
+}
+.bottom-section form .btn
+{
+    border-bottom: 0;
+    border-radius: 0;
+    border-color: white;
+    color: white;
+    margin: auto;
+    display: block;
+    background: transparent;
+}
+.bottom-section ul.list-inline
+{
+    direction: rtl;
+    margin: auto;
+}
+.bottom-section ul.list-inline li
+{
+    border-left: 1px solid;
+    padding-left: 0.2rem; 
+    margin: 0;
+}
+.bottom-section ul.list-inline li:last-child
+{
+    border: none;
+}
+.bottom-section ul.list-inline li a
+{
+    color: #115576;
+}
+
+.bottom-section ul.list-inline li a:hover,
+.bottom-section ul.list-inline li a:focus
+{
+    color: #0cadb3;
+}
+
+.bottom-section ul.social
+{
+    padding-right: 0;
+    margin: 1rem auto;
+}
+.bottom-section ul.social li
+{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.bottom-section ul.social li i
+{
+    font-size: 36pt;
+    background-color: #f8f8f8;
+    color: #c1c1c1;
+    text-align: center;
+    padding-top: 10px;
+    width: 71px;
+    height: 71px;
+    border: 1px solid #c1c1c1;
+    transition: all ease 0.5s;
+}
+.bottom-section ul.social li i:hover,
+.bottom-section ul.social li i:focus
+{
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+footer 
+{
+    color: #115576;
+    font-size: 18px;
+}
+footer a
+{
+    color: #115576;
+}
+footer a:hover,
+footer a:focus
+{
+    color: #0cadb3;
+}
+/* End-bottom-section */
+
+/**********************/
+
+/* start-page-content */
+
+.page-content
+{
+    margin: 2rem auto;
+    direction: rtl;
+    text-align: justify;
+}
+.page-content .about .row img
+{
+    width: 60%;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 1px dashed #115576;
+    padding: 2px;
+}
+.page-content .about .pdf-icon
+{
+    direction: ltr;
+    font-weight: bold;
+    color: #115576;
+}
+.page-content .about .pdf-icon img
+{
+    height: 30px;
+}
+.page-content .about .certificate img
+{
+    height: 150px;
+}
+.mfp-figure small
+{
+    display: none !important;
+}
+.page-content .about .certificate a
+{
+    position: relative;
+    display: inline-block;
+    transition: ease all 0.5s;
+}
+.page-content .about .certificate i
+{
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    color: #0cadb3;
+    background: rgba(235, 238, 240, 0.75);
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 50%;
+    display: none;
+}
+.page-content .about .certificate a:hover,
+.page-content .about .certificate a:focus
+{
+    opacity: 0.7;
+}
+
+.page-content .about .certificate a:hover .fa-search-plus,
+.page-content .about .certificate a:focus .fa-search-plus
+{
+    display: block
+}
+.page-content h2
+{
+    color: #0cadb3;
+}
+.page-content .about .certificate h2
+{
+    font-weight: bold;
+}
+
+/**********/
+
+.page-content .details img
+{
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+.page-content .details ul li
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 0.3rem;
+}
+.page-content .details ul li:last-of-type
+{
+    border-bottom: 0;
+}
+.page-content .details ul li img
+{
+    height: 80px;
+    border-radius: 0;
+}
+.page-content .details ul li small
+{
+    display: block;
+}
+.page-content .details ul
+{
+    box-shadow: 0px 0px 5px 2px #988c8c;
+    padding: 0.5rem;
+}
+.page-content .details p
+{
+    margin-top: 1rem;
+    
+}
+.page-content .details iframe
+{
+    width:100%;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
+/***********/
+
+.page-content .contact-us .btn
+{
+    background: transparent;
+    border-color: #0cadb3;
+    color: #0cadb3;
+}
+.page-content .contact-us .map
+{
+    margin-top: 1rem;
+}
+
+/******************/
+
+.page-content .service .row .col-md-3 div
+{
+    background: #f8f8f8;
+    box-shadow: 0 0 2px 0px black;
+    padding: 5px;
+    margin:0.3rem auto;
+    border-radius: 0 25px
+}
+.page-content .service .row .col-md-3 div img
+{
+   border-radius: 0 25px 0 0; 
+    width: 100%;
+    height: 200px;
+}
+.page-content .service .row .col-md-3 div p
+{
+    margin-bottom: 0;
+}
+.page-content .service .row .col-md-3 div a
+{
+    display: block;
+    text-align: center;
+    margin-top: 0.3rem;
+    font-weight: bold;
+    color: #115576;
+    transition: ease all 0.5s;
+}
+.page-content .service .row .col-md-3 div a:hover,
+.page-content .service .row .col-md-3 div a:focus
+{
+    font-size: 19px;
+    color: #0cadb3;
+}
+/* End-page-content */
+.sticky 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 2rem;
+    background: white; 
+    box-shadow: 0px 1px 5px 0px black;
+}
+

@@ -1,0 +1,151 @@
+@media(max-width:1199px)
+{
+    .service-center ul.list-inline li img
+    {
+        width: 303px;
+    }
+    .info-center
+    {
+        background-size: cover;
+        text-align: center;
+    }
+    .info-center h2
+    {
+        margin-bottom: 0;
+    }
+    .info-center .row
+    {
+        margin: 0;
+    }
+    .video-section ul.list-inline li
+    {
+        width: 46%;
+        margin-right: 1.2rem;
+    }
+    .bottom-section
+    {
+        background-size: cover;
+        color: white;
+    }
+    .bottom-section ul.social li i
+    {
+        width: 89px;
+    }
+}
+@media(max-width:991px)
+{
+    .khattab-slider,
+    .inner-khattab-slider
+    {
+        margin-top: -119px;
+    }
+    .navigationbar nav
+    {
+        margin-top: -15px;
+    }
+    .service-center ul.list-inline li img
+    {
+        width: 223px;
+        height: 250px;
+    }
+    .video-section ul.list-inline
+    {
+        padding-right: 0;
+    }
+    .video-section ul.list-inline li
+    {
+        width: 100%;
+        margin: 0;
+    }
+     .bottom-section ul.social li i
+    {
+        width: 63px;
+        height: 63px;
+    }
+}
+
+@media(max-width:767px)
+{
+    .khattab-slider,
+    .inner-khattab-slider
+    {
+        margin-top: 0;
+    }
+    .navigationbar nav
+    {
+       margin-top: 0; 
+    }
+    .navigationbar .navbar-nav
+    {
+        direction: rtl;
+        text-align: justify;
+    }
+    .khattab-slider .carousel-item img,
+    .inner-khattab-slider .carousel-item img
+    {
+        height: 300px;
+    }
+    .welcome-site .welcome-body
+    {
+        background: #f8f8f8;
+    }
+    .welcome-site .welcome-body .welcome-img img
+    {
+        margin-left: 0;
+    }
+    .welcome-site .welcome-body .welcome-content
+    {
+        margin: 1rem;
+    }
+    .service-center ul.list-inline li img
+    {
+        width: 253px;
+    }
+    .bottom-section ul.list-inline
+    {
+        text-align: center;
+    }
+    .bottom-section ul.list-inline li a,
+    footer a,
+    footer
+    {
+        color: #0cadb3;
+    }
+    .bottom-section ul.list-inline li a:hover,
+    footer a:hover,
+    .bottom-section ul.list-inline li a:focus,
+    footer a:focus
+    
+    {
+        color: #115576;
+    }
+     .bottom-section ul.social li i
+    {
+        width: 71px;
+        height: 71px;
+    }
+}
+
+@media(max-width:576px)
+{
+    .service-center ul.list-inline li
+    {
+        display: block
+    }
+    .service-center ul.list-inline li img
+    {
+        width: 100%;
+        height: auto;
+    }
+    .navigationbar .navbar-light .navbar-brand
+    {
+        width: 70%;
+        margin-right: 0;
+    }
+    .page-content .about .row img
+    {
+        height: 250px;
+        width: 250px;
+        margin: 1rem auto;
+    }
+}
